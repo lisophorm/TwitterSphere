@@ -66,8 +66,8 @@ package
 		}
 		
 		private function callCron(e:TimerEvent):void {
-			cronLoader.load(new URLRequest("http://www.barclaysyouarefootball.uk.com/twittersphere/sucktweets.php"));
-			panicLoader.load(new URLRequest("http://www.barclaysyouarefootball.uk.com/twittersphere/alert.php?totaltweets="+this.numberOfTweets));
+			cronLoader.load(new URLRequest("http://nba.wassermanexperience.com/sucktweets.php"));
+			panicLoader.load(new URLRequest("http://nba.wassermanexperience.com/alert.php?totaltweets="+this.numberOfTweets));
 		}
 		
 		public function Twitter():void
@@ -80,11 +80,11 @@ package
 			if (this.firstLoad == true)
 			{
 				this.date = new Date();
-				this.request = new URLRequest("http://www.barclaysyouarefootball.uk.com/twittersphere/tweetfeed.php?client=1&query=initTweets&numberOfPosts="+this.numberOfTweets.toString());
+				this.request = new URLRequest("http://nba.wassermanexperience.com/tweetfeed.php?client=1&query=initTweets&numberOfPosts="+this.numberOfTweets.toString());
 			}
 			else if (this.firstLoad == false)
 			{
-				this.request = new URLRequest("http://www.barclaysyouarefootball.uk.com/twittersphere/tweetfeed.php?client=1&query=newTweets&int=" + this.date.time);
+				this.request = new URLRequest("http://nba.wassermanexperience.com/tweetfeed.php?client=1&query=newTweets&int=" + this.date.time);
 				this.date = new Date();
 			}
 

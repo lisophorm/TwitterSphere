@@ -10,9 +10,6 @@
         </excludedEntries>
       </libraryPathEntry>
       <libraryPathEntry kind="1" linkType="1" path="libs"/>
-      <libraryPathEntry kind="3" linkType="1" path="src/lib/greensock.swc" useDefaultLinkType="false"/>
-      <libraryPathEntry kind="3" linkType="1" path="src/lib/away3d-core-fp11_4_1_4.swc" useDefaultLinkType="false"/>
-      <libraryPathEntry kind="3" linkType="1" path="src/lib/flashassets.swc" useDefaultLinkType="false"/>
     </libraryPath>
     <sourceAttachmentPath/>
   </compiler>
@@ -27,9 +24,13 @@
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
   <buildTargets>
     <buildTarget buildTargetName="default" platformId="default">
-      <airSettings airCertificatePath="" airTimestamp="true" anePathSet="false" version="1">
+      <airSettings airCertificatePath="C:/Users/Alfonso/FB tidy workspace/dreamteam/touchscreen.p12" airTimestamp="false" anePathSet="true" version="1">
         <airExcludes/>
         <anePaths/>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
       </airSettings>
       <actionScriptSettings version="1"/>
     </buildTarget>
