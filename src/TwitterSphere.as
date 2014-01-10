@@ -64,17 +64,17 @@ package
 	public class TwitterSphere extends Sprite
 	{
 		// Environment map.
-		[Embed(source="assets/grass1024.jpg")]
+		[Embed(source="assets/stars_sam.jpg")]
 		private var EnvPosX:Class;
-		[Embed(source="assets/grass1024.jpg")]
+		[Embed(source="assets/stars_sam.jpg")]
 		private var EnvPosY:Class;
-		[Embed(source="assets/grass1024.jpg")]
+		[Embed(source="assets/stars_sam.jpg")]
 		private var EnvPosZ:Class;
-		[Embed(source="assets/grass1024.jpg")]
+		[Embed(source="assets/stars_sam.jpg")]
 		private var EnvNegX:Class;
-		[Embed(source="assets/grass1024.jpg")]
+		[Embed(source="assets/stars_sam.jpg")]
 		private var EnvNegY:Class;
-		[Embed(source="assets/grass1024.jpg")]
+		[Embed(source="assets/stars_sam.jpg")]
 		private var EnvNegZ:Class;
 
 		
@@ -1008,7 +1008,7 @@ package
 			loader3D.addEventListener(LoaderEvent.LOAD_ERROR,onLoadResourceError);
 			loader3D.addEventListener(AssetEvent.ASSET_COMPLETE, onAssetComplete);
 			
-			loader3D.load(new URLRequest("assets/3d/barclayswhiteball.awd"));
+			loader3D.load(new URLRequest("assets/3d/ball.awd"));
 //			loader3D.load(new URLRequest("assets/seatest.sea"));
 			
 			//sphereGeometry=new SphereGeometry(sphereRadius, 50, 50);
