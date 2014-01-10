@@ -6,8 +6,10 @@
 .project
 .metadata
 bin/
+bin-debug/
 tmp/
 *.tmp
+*.air
 *.bak
 *.swp
 *~.nib
