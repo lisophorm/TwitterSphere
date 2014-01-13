@@ -211,8 +211,10 @@ package
 			tweetHolder = new Sprite();
 			addChild(tweetHolder);
 			
-			thankyouTicker = new ThankyouScreen();
-			addChild(thankyouTicker);
+			// splash screen
+			
+			//thankyouTicker = new ThankyouScreen();
+			//addChild(thankyouTicker);
 		}
 		private function setupEventListeners():void
 		{
