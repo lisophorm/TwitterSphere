@@ -216,7 +216,7 @@ package
 			{
 				twitterWin.twitterBody.htmlText = "";
 			}
-		//	twitterWin.publishDate.text=this.mysqlDate;
+			twitterWin.publishDate.text=this.mysqlDate;
 			this.z = 0;
 			this.transform.matrix3D = null;
 			this.addEventListener(MouseEvent.MOUSE_DOWN, this.checkTap);
