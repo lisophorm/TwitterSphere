@@ -668,7 +668,7 @@ package
 		
 		private function mouseDown(event:MouseEvent) : void
 		{
-			thankyouTicker.reset();
+			//thankyouTicker.reset();
 			
 			var _loc_2:* = undefined;
 			clearTimeout(this.spinDelay);
@@ -1050,7 +1050,7 @@ package
 		}
 		private function mouseDownHandler(e:MouseEvent):void
 		{
-			thankyouTicker.reset();
+			//thankyouTicker.reset();
 			
 			lastPanAngle = cameraController.panAngle;
 			lastTiltAngle = cameraController.tiltAngle;
